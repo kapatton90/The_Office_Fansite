@@ -8,8 +8,9 @@
 	<title>Survey</title>
 </head>
 <h1><header>Who is your favorite?</header></h1>
+<img src="The_Office_COver.jpeg">
 <body>
-	<form method="post" action="/post">
+	<form action="submit.html">
 		<fieldset>
 			<legend>Favorite Character</legend>
 			<p>
@@ -28,11 +29,16 @@
 			</p>	
 			<p>	
 				<label>	
-					<input type="radio" name="character" value="Dwight Schrute"> Dwight Shrute
+					<input type="radio" name="character" value="Dwight Schrute"> Dwight Schrute
+				</label>
+			</p>	
+			<p>	
+				<label>	
+					<input type="radio" name="character" value="Dwight Schrute"> <textarea>Write in your own answer</textarea>
 				</label>
 			</p>	
 		</fieldset>	
-		
+		<button type="submit">Submit</button>
 	</form>
 </body>
 </html>
